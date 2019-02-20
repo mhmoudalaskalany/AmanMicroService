@@ -7,10 +7,10 @@ namespace AmanMicroService.Actors
     public class StudentsActor : UntypedActor
     {
 
-        public StudentsActor(Stops Stops)
+        public StudentsActor(Stops stops)
         {
             // handel Stops data
-            // create List of Students (ids)
+            // create List of Students (ids, status)
             // create StudentActor(Stops) => two Stops per student 
             /*
                 handel events:

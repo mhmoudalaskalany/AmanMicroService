@@ -4,33 +4,33 @@ namespace AmanMicroService.Models
 {
     public class Rides
     {
-        public int id { get; set; }
-        public int period_department_days_id { get; set; }
-        public int driver_id { get; set; }
-        public int vehicle_id { get; set; }
-        public int date { get; set; }
-        public int route_id { get; set; }
-        public int week_day_id { get; set; }
-        public DateTime? actual_start { get; set; }
-        public DateTime? actual_end { get; set; }
-        public DateTime? actual_total_travel_time { get; set; }
-        public DateTime? estimated_start { get; set; }
-        public DateTime? estimated_end { get; set; }
-        public DateTime? estimated_total_travel_time { get; set; }
-        public string status { get; set; }
-        public string reason { get; set; }
-        public DateTime? deleted_at { get; set; }
-        public DateTime? created_at { get; set; }
-        public DateTime? updated_at { get; set; }
-        public int client_id { get; set; }
-        public int? estimated_distance { get; set; }
-        public string tablet_update_route { get; set; }
-        public int polyline_id { get; set; }
-        public string ride_type { get; set; }
-        public int period_id { get; set; }
-        public int? max_speed { get; set; }
-        public int? average_speed { get; set; }
-        public int? total_duration { get; set; }
-        public float? total_distance { get; set; }
+        public int Id { get; set; }
+        public int PeriodDepartmentDaysId { get; set; }
+        public int DriverId { get; set; }
+        public int VehicleId { get; set; }
+        public int Date { get; set; }
+        public int RouteId { get; set; }
+        public int WeekDayId { get; set; }
+        public DateTime? ActualStart { get; set; }
+        public DateTime? ActualEnd { get; set; }
+        public DateTime? ActualTotalTravelTime { get; set; }
+        public DateTime? EstimatedStart { get; set; }
+        public DateTime? EstimatedEnd { get; set; }
+        public DateTime? EstimatedTotalTravelTime { get; set; }
+        public string Status { get; set; }
+        public string Reason { get; set; }
+        public DateTime? DeletedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public int ClientId { get; set; }
+        public int? EstimatedDistance { get; set; }
+        public string TabletUpdateRoute { get; set; }
+        public int PolylineId { get; set; }
+        public string RideType { get; set; }
+        public int PeriodId { get; set; }
+        public int? MaxSpeed { get; set; }
+        public int? AverageSpeed { get; set; }
+        public int? TotalDuration { get; set; }
+        public float? TotalDistance { get; set; }
     }
 }

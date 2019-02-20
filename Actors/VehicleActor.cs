@@ -20,9 +20,14 @@ namespace AmanMicroService.Actors
         {
             // receive Signal
             // set Signal in LastSignal
+            /*
+              handel events: 
+                1- NEAR_HOME
+                2- STUDENT_NOT_ATTENDED
+             */
         }
 
-        public Signal getLastSignal()
+        public Signal GetLastSignal()
         {
             return LastSignal;
         }

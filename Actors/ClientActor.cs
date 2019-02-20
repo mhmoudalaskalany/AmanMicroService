@@ -7,7 +7,8 @@ namespace AmanMicroService.Actors
     {
         public ClientActor()
         {
-            // if is get message from new ride => create RideActor
+            // if is get message from new ride => create RideActor(message Ride)
+            // List of Rides
         }
 
         protected override void OnReceive(object message)

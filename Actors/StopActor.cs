@@ -9,6 +9,7 @@ namespace AmanMicroService.Actors
         public StopActor()
         {
             /*
+             ask vehicle actor
                 handel events: (update stop row in Stops table)
                 1- STUDENT_ENTER
                 2- STUDENT_EXIT

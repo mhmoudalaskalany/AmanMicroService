@@ -4,18 +4,18 @@ namespace AmanMicroService.Models
 {
     public class NotificationHistory
     {
-        public int id { get; set; }
-        public int student_id { get; set; }
-        public int dateTime { get; set; }
-        public string action_type { get; set; }
-        public string icon { get; set; }
-        public string notification_text { get; set; }
-        public Boolean student_is_read { get; set; }
-        public DateTime? deleted_at { get; set; }
-        public DateTime? created_at { get; set; }
-        public DateTime? updated_at { get; set; }
-        public int client_id { get; set; }
-        public int driver_id { get; set; }
-        public int ride_id { get; set; }
+        public int Id { get; set; }
+        public int StudentId { get; set; }
+        public int DateTime { get; set; }
+        public string ActionType { get; set; }
+        public string Icon { get; set; }
+        public string NotificationText { get; set; }
+        public Boolean StudentIsRead { get; set; }
+        public DateTime? DeletedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public int ClientId { get; set; }
+        public int DriverId { get; set; }
+        public int RideId { get; set; }
     }
 }
